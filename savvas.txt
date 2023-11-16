@@ -1,0 +1,2 @@
+//This bookmarklet expands the Savvas reader because the current UI is god awful. Planning to add functionality to strip every image in the article to make any Savvas story easily printable :)
+javascript: document.body.innerHTML = document.getElementsByClassName("extend-to-container")[0].contentDocument.getElementsByClassName("epub-view")[0].firstChild.contentDocument.getElementsByClassName("scene")[0].outerHTML
